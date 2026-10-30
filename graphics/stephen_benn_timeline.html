@@ -1,0 +1,88 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+:root{--bg:#f7f3ea;--ink:#1d1a16;--muted:#6d655a;--line:#d8cfbf;--red:#b0182c;--ermine:#2a2a2a;--gold:#b8892b;--green:#2f6b4f;--card:#fffdf8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,"Times New Roman",serif;width:1400px}
+.wrap{padding:72px 90px 64px}
+.kicker{font:700 15px/1 "Helvetica Neue",Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--red)}
+h1{font-size:64px;line-height:1.02;margin:14px 0 10px;font-weight:700;letter-spacing:-.01em}
+.sub{font-size:24px;color:var(--muted);max-width:980px;line-height:1.35;margin:0 0 30px}
+.legend{display:flex;gap:28px;font:15px "Helvetica Neue",Arial,sans-serif;color:var(--muted);margin-bottom:34px;align-items:center}
+.legend i{display:inline-block;width:14px;height:14px;border-radius:50%;margin-right:8px;vertical-align:-2px}
+.era{display:grid;grid-template-columns:230px 1fr;gap:0;position:relative}
+.eralabel{padding:22px 26px 0 0;text-align:right}
+.eralabel b{display:block;font:800 13px "Helvetica Neue",Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#fff;background:var(--c);padding:7px 10px;border-radius:3px;display:inline-block}
+.eralabel span{display:block;font:15px "Helvetica Neue",Arial,sans-serif;color:var(--muted);margin-top:8px}
+.items{border-left:4px solid var(--c);padding:10px 0 18px 0}
+.it{position:relative;display:grid;grid-template-columns:150px 1fr;gap:18px;padding:13px 0 13px 34px}
+.it::before{content:"";position:absolute;left:-12px;top:20px;width:20px;height:20px;border-radius:50%;background:var(--bg);border:4px solid var(--c)}
+.it.dad::before{background:var(--gold);border-color:var(--gold)}
+.it.big::before{background:var(--c)}
+.date{font:700 17px/1.3 "Helvetica Neue",Arial,sans-serif;color:var(--c);padding-top:3px}
+.txt{font-size:20px;line-height:1.4}
+.txt q{font-style:italic;quotes:"\201C" "\201D"}
+.txt .who{font:600 15px "Helvetica Neue",Arial,sans-serif;color:var(--muted);display:block;margin-top:3px}
+.big .txt{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--c);padding:14px 18px;border-radius:4px;font-size:21px}
+.bars{display:flex;gap:10px;align-items:flex-end;height:120px;margin:40px 0 4px}
+.bars div{width:58px;background:var(--c);opacity:.85;position:relative;border-radius:2px 2px 0 0}
+.bars div span{position:absolute;top:-24px;width:100%;text-align:center;font:700 15px "Helvetica Neue",Arial,sans-serif;color:var(--ink)}
+.bars div em{position:absolute;bottom:-24px;width:100%;text-align:center;font:13px "Helvetica Neue",Arial,sans-serif;font-style:normal;color:var(--muted)}
+.gap{height:26px}
+.foot{margin-top:40px;border-top:2px solid var(--ink);padding-top:16px;display:flex;justify-content:space-between;font:15px "Helvetica Neue",Arial,sans-serif;color:var(--muted)}
+.quote{margin:34px 0 0 230px;font-size:28px;line-height:1.35;font-style:italic;max-width:930px}
+.quote small{display:block;font:15px "Helvetica Neue",Arial,sans-serif;font-style:normal;color:var(--muted);margin-top:10px}
+</style></head><body><div class="wrap">
+<div class="kicker">House of Lords · from the record</div>
+<h1>Stephen Benn, 3rd Viscount Stansgate</h1>
+<p class="sub">His father fought to give the title up. The son took the seat, voted to abolish it, and came back five weeks after it went. Every entry below comes from Hansard or the parliamentary record.</p>
+<div class="legend"><span><i style="background:var(--gold)"></i>He mentions "my dad"</span><span><i style="background:#b0182c"></i>Key moment (filled dot)</span></div>
+
+<div class="era" style="--c:#7a6f5f">
+ <div class="eralabel"><b>Before</b><span>to 2021</span></div>
+ <div class="items">
+  <div class="it"><div class="date">Until 1990</div><div class="txt">Elected member of the Inner London Education Authority at County Hall, until the government abolished it.</div></div>
+  <div class="it"><div class="date">1990s–2021</div><div class="txt">Builds the links between science and Parliament: Parliamentary Links Day, and regular meetings of scientists and Members of both Houses.</div></div>
+  <div class="it big"><div class="date">2014</div><div class="txt">Tony Benn dies. A disclaimer only lasts a lifetime, so the Stansgate title passes to Stephen.</div></div>
+ </div>
+</div>
+
+<div class="era" style="--c:#b0182c">
+ <div class="eralabel"><b>Hereditary peer</b><span>Jul 2021 – Apr 2026</span></div>
+ <div class="items">
+  <div class="it big"><div class="date">15 Jul 2021</div><div class="txt">Wins a hereditary by-election and enters the Lords as a Labour peer.</div></div>
+  <div class="it"><div class="date">14 Oct 2021</div><div class="txt">Maiden speech, quoting his grandfather on the House's <q>almost intolerable good will</q>.<span class="who">Lord Horam: it <q>had all the fluency of his father</q></span></div></div>
+  <div class="it"><div class="date">2021–2026</div><div class="txt">428 speeches. Science first: Horizon Europe is his most-asked question.
+   <div class="bars"><div style="height:20%"><span>28</span><em>2021</em></div><div style="height:100%"><span>142</span><em>2022</em></div><div style="height:63%"><span>90</span><em>2023</em></div><div style="height:37%"><span>53</span><em>2024</em></div><div style="height:57%"><span>81</span><em>2025</em></div><div style="height:24%;opacity:.5"><span>34</span><em>2026*</em></div></div><div class="who" style="margin-top:30px">* January to April, before the Act</div></div></div>
+  <div class="it dad"><div class="date">9 Sep 2022</div><div class="txt">Tribute to the Queen, wishing his dad were there to tell of <q>his rather unsuccessful attempt to cut her head off — not in any physical sense</q>.<span class="who">Tony Benn wanted her off the stamps</span></div></div>
+  <div class="it dad"><div class="date">19 Jan 2023</div><div class="txt"><q>My grandfather and my dad told me about the visit of Gandhi.</q></div></div>
+  <div class="it big"><div class="date">11 Dec 2024</div><div class="txt">Second reading of the bill to remove the hereditary peers. He takes the chair as Deputy Chairman instead of speaking.<span class="who">Lord Brady: <q>the late Tony Benn, whose son … now sits here in an elected capacity</q></span></div></div>
+  <div class="it"><div class="date">9 Jan 2025</div><div class="txt">Lord Borwick recalls <q>Tony Benn as Secretary of State, the late father of my friend, the noble Viscount</q>.</div></div>
+  <div class="it dad"><div class="date">5 Mar 2025</div><div class="txt"><q>My dad was an RAF pilot.</q> His uncle Michael was killed after D-Day.</div></div>
+  <div class="it dad"><div class="date">3 Apr 2025</div><div class="txt"><q>When my dad died — incidentally, he was born 100 years ago today …</q></div></div>
+  <div class="it"><div class="date">Apr–Jun 2025</div><div class="txt">Speaks all through the Armed Forces Commissioner Bill, on service families.</div></div>
+  <div class="it big"><div class="date">2 &amp; 9 Jul 2025</div><div class="txt">Votes <b>Not Content</b> in all seven divisions on the Hereditary Peers Bill. That includes Amendment 2, which would have let him keep his seat. The Lords passed it, 280–243, but it didn't make it into the Act.</div></div>
+  <div class="it"><div class="date">28 Apr 2026</div><div class="txt">Last words as a hereditary peer: <q>It was about the Information Commissioner's Office.</q></div></div>
+ </div>
+</div>
+
+<div class="era" style="--c:#1d1a16">
+ <div class="eralabel"><b>Out</b><span>29 Apr 2026</span></div>
+ <div class="items" style="padding:4px 0 10px">
+  <div class="it big"><div class="date">29 Apr 2026</div><div class="txt">The Act takes effect. 77 hereditary seats end at once, his among them.</div></div>
+ </div>
+</div>
+
+<div class="era" style="--c:#2f6b4f">
+ <div class="eralabel"><b>Life peer</b><span>Jun 2026 –</span></div>
+ <div class="items">
+  <div class="it big"><div class="date">3 Jun 2026</div><div class="txt">Back, five weeks later, as a Labour life peer.</div></div>
+  <div class="it"><div class="date">16 Jun 2026</div><div class="txt">First speech in the new seat: cyber security and AI scams.</div></div>
+  <div class="it dad"><div class="date">9 Jul 2026</div><div class="txt">Remembers going to court with his dad, <q>elected for the fourth time as the Member for Bristol South East and … refused entry to the House of Commons</q>.</div></div>
+  <div class="it dad"><div class="date">22 Oct 2026</div><div class="txt">Thanks the Library for citing the 1991 Commonwealth of Britain Bill, <q>introduced by the then right honourable Member for Chesterfield</q>: his father's bill to abolish the Lords.</div></div>
+ </div>
+</div>
+
+<div class="quote">He never says "Tony Benn". He says "my dad", and the sharpest lines came after the hereditary seat had gone.<small>Trevor Dwyer · data: Hansard via TheyWorkForYou, ParlParse people.json</small></div>
+<div class="foot"><span>sqlartist.github.io</span><span>Send Him Upstairs</span></div>
+</div></body></html>
