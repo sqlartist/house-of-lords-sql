@@ -1,5 +1,8 @@
 # House of Lords: slice 2 of the Hansard series
 
+> **Read the full story:** For the full breakdown of how this project came to be and the initial metrics, check out the article on [Medium](https://medium.com/@trevor.dwyer/send-him-upstairs-e961affc1306). Follow me there for future updates! You can also read it free on [my blog](https://sqlartist.github.io/posts/send-him-upstairs/).
+
+
 This follows *Two Graphics Cards and 1.7 Million Speeches*, *Nobody Laughed at Margaret Thatcher* and *Order! Order!*. Those cover the Commons, using Odell's *Hansard Speeches 1979–2021*. This adds the Lords from 1999 onwards, from the TheyWorkForYou / ParlParse daily XML plus ParlParse `people.json`. It then joins the two Houses on the person, so an MP who became a peer is one `PersonId` in both.
 
 Everything goes into the existing `HANSARD` database under a new `hl` schema. Nothing in `hc` or `dbo` is changed.
